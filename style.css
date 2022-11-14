@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+
+body{
+    text-align: center;
+    
+    font-size: 20px;
+    background-color: #f5f5f5;
+
+}
+
+.main > h1,  h2, .main2 h1{
+    background-color: beige;
+    margin-bottom: 1em;
+    padding: 5px;
+    font-family: 'Sono', sans-serif;
+    
+}
+
+hr{
+    border: 1px solid #000;
+    margin: 1em 0;
+}
+
+.card {
+    display: inline-block;
+    width: 18rem;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #000;
+}
+
+.card img {
+    object-fit: cover;
+    max-width: 50vmin;
+    max-height: 50vmin;
+}
+
+.main {
+    min-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+}
+
+.FODA {
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #000;
+    max-width: 70vmax;
+}
+
+.FODA .col {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+    background-color: #f5f5f5;
+}
+
+h3 {
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+}
+
+.centro {
+    background: #EEE;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
